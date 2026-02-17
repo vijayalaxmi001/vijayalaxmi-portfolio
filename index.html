@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vijayalaxmi Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="stars"></div>
+    <header class="header">
+      <nav class="container nav">
+        <a href="#home" class="logo">Vijayalaxmi <span>Portfolio</span></a>
+        <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#askme">AskMe</a></li>
+        </ul>
+        <button class="theme-btn" aria-label="Toggle theme">☀</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="container hero-content">
+          <p class="badge">✧ Building modern digital experiences</p>
+          <h1>Hi, I'm <span>Vijayalaxmi</span></h1>
+          <p>
+            Full-stack developer crafting fast, beautiful web products with a focus
+            on clean UI, smooth animations, and great user experience across devices.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">My Resume</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="title">About <span>Me</span></h2>
+          <div class="about-grid">
+            <div>
+              <h3>Passionate Full-Stack Developer & Tech Creator</h3>
+              <p>
+                I have 2+ years of hands-on experience building responsive,
+                accessible, and performance-focused web applications using modern
+                tools and frameworks.
+              </p>
+              <p>
+                I love turning complex problems into elegant products. I keep
+                learning new technologies and best practices to deliver clean,
+                scalable, and user-friendly solutions.
+              </p>
+            </div>
+            <div class="profile-card">
+              <img src="https://ui-avatars.com/api/?name=Vijayalaxmi&background=111827&color=e5e7eb&size=320" alt="Vijayalaxmi" />
+              <h4>Vijayalaxmi</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <h2 class="title">Technical <span>Skills</span></h2>
+          <div class="chips">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span>
+            <span>Node.js</span><span>Express</span><span>MongoDB</span><span>Python</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2 class="title">Featured <span>Projects</span></h2>
+          <p class="subtitle">
+            Here are some of my recent projects, carefully crafted with attention to
+            detail and performance.
+          </p>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-img"></div>
+              <h3>House Price Prediction App</h3>
+              <p>An app that predicts the cost of a house based on location and geography.</p>
+              <div class="tech-list"><span>Python</span><span>NumPy</span><span>Pandas</span><span>Matplotlib</span></div>
+              <div class="project-links"><a href="#">Live Demo →</a><a href="#">GitHub →</a></div>
+            </article>
+            <article class="project-card">
+              <div class="project-img"></div>
+              <h3>University Website</h3>
+              <p>A platform that helps students learn about university rules and connect with peers.</p>
+              <div class="tech-list"><span>React</span><span>JavaScript</span><span>CSS</span></div>
+              <div class="project-links"><a href="#">Live Demo →</a><a href="#">GitHub →</a></div>
+            </article>
+            <article class="project-card">
+              <div class="project-img"></div>
+              <h3>Fullstack Chatting App</h3>
+              <p>A real-time end-to-end encrypted chatting application.</p>
+              <div class="tech-list"><span>React</span><span>NodeJS</span><span>ExpressJS</span><span>MongoDB</span></div>
+              <div class="project-links"><a href="#">Live Demo →</a><a href="#">GitHub →</a></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <h2 class="title">Get In <span>Touch</span></h2>
+          <p class="subtitle">Have a project in mind or want to collaborate? Let's build something meaningful together.</p>
+          <div class="contact-grid">
+            <div>
+              <h3>Contact Information</h3>
+              <p>Email<br /><strong>vijayalaxmi@example.com</strong></p>
+              <p>Phone<br /><strong>+91 **********</strong></p>
+              <p>Location<br /><strong>Hyderabad, India</strong></p>
+            </div>
+            <form class="contact-form">
+              <h3>Send a Message</h3>
+              <label>Your Name<input type="text" placeholder="Your name" /></label>
+              <label>Your Email<input type="email" placeholder="you@example.com" /></label>
+              <label>Your Message<textarea rows="5" placeholder="Hello, I'd like to talk about..."></textarea></label>
+              <button type="button" class="btn btn-primary">Send Message ✈</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="askme" class="section askme">
+        <div class="container">
+          <h2 class="title">Ask <span>Me</span></h2>
+          <p class="subtitle">Want to know more about my projects or experience? Reach out and ask me anything.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">© <span id="year"></span> Vijayalaxmi. All rights reserved.</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
